@@ -25,7 +25,7 @@ jobs:
 
 
     - name: Checkout Code
-    - uses: actions/cehckout@v3
+    - uses: actions/checkout@v3
       with: 
         ref: jenk
 
