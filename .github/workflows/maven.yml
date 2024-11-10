@@ -2,7 +2,9 @@ name: Java CI
 
 on:
   push:
-    branches: [ "main", "jenk" ]
+    branches: 
+      - main 
+      - jenk
 
 jobs:
   Build-test-and-deploy:
